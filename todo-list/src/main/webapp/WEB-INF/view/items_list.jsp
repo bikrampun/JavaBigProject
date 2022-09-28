@@ -15,10 +15,19 @@
             <tr>
                 <th>Title</th>
                 <th>Deadline</th>
+                <th>View</th>
+                <th>Edit</th>
+                <th>Delete</th>
             </tr>
 
             <c:forEach var="item" items="${todoData.items}">
 
+                <c:url var="viewUrl" value="${Mappings.VIEW_ITEM}">
+                    <c:param name="id" value="${item.id}"/>
+                </c:url>
+                <c:url var="editUrl" value="${Mappings.ADD_ITEM}">
+                    <c:param name="id" value="${item.id}"/>
+                </c:url>
                 <c:url var="deleteUrl" value="${Mappings.DELETE_ITEM}">
                     <c:param name="id" value="${item.id}"/>
 <!-- param tag used to specify request to parameter with URL which in our case is item ID -->
@@ -27,6 +36,8 @@
                 <tr>
                     <td><c:out value="${item.title}"/></td>
                     <td><c:out value="${item.deadLine}"/></td>
+                    <td><a href="${viewUrl}">View</a></td>
+                    <td><a href="${editUrl}">Edit</a></td>
                     <td><a href="${deleteUrl}">Delete</a></td>
                 </tr>
             </c:forEach>
