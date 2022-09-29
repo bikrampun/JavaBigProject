@@ -1,0 +1,9 @@
+<configuration>
+
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+<!--    include tag allows us to include parts of configuration from another file-->
+    <logger name="org.example" level="DEBUG"/>
+    <logger name="org.springframework" level="INFO"/>
+<!--    level="INFO" makes the application starts quicker-->
+
+</configuration>
