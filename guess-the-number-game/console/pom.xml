@@ -21,6 +21,7 @@
 
     <build>
         <plugins>
+<!--this plugin is to pack the spring boot application into self-contained jar file-->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
