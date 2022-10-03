@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!-- xmlns is xml namespace, here this define prefix 'th' -->
+<head>
+    <meta charset="UTF-8">
+    <title>Guess the Number Game</title>
+</head>
+<body>
+    <div align="center">
+        <h1>Welcome to the Number Game</h1>
+        <a th:text="Play" th:href="play">Click to Play</a>
+        <!-- th:text is thymeleaf attributes, this will replace the Html attribute -->
+    </div>
+</body>
+</html>
