@@ -1,3 +1,9 @@
-org\example\config\WebConfig.class
+org\example\service\GameServiceImpl.class
 org\example\WebMain.class
+org\example\controller\GameController.class
 org\example\util\ViewNames.class
+org\example\config\WebConfig.class
+org\example\service\GameService.class
+org\example\util\GameMappings.class
+org\example\util\thymeleaf\DecoupledLogicSetup.class
+org\example\util\AttributeNames.class
