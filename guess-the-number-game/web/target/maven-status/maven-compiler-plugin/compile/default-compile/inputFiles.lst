@@ -4,6 +4,7 @@ D:\Project\IntelliJ_IDEA_project\JavaBigProject\guess-the-number-game\web\src\ma
 D:\Project\IntelliJ_IDEA_project\JavaBigProject\guess-the-number-game\web\src\main\java\org\example\service\GameService.java
 D:\Project\IntelliJ_IDEA_project\JavaBigProject\guess-the-number-game\web\src\main\java\org\example\service\GameServiceImpl.java
 D:\Project\IntelliJ_IDEA_project\JavaBigProject\guess-the-number-game\web\src\main\java\org\example\util\AttributeNames.java
+D:\Project\IntelliJ_IDEA_project\JavaBigProject\guess-the-number-game\web\src\main\java\org\example\interceptor\RequestInterceptor.java
 D:\Project\IntelliJ_IDEA_project\JavaBigProject\guess-the-number-game\web\src\main\java\org\example\util\thymeleaf\DecoupledLogicSetup.java
 D:\Project\IntelliJ_IDEA_project\JavaBigProject\guess-the-number-game\web\src\main\java\org\example\config\WebConfig.java
 D:\Project\IntelliJ_IDEA_project\JavaBigProject\guess-the-number-game\web\src\main\java\org\example\util\ViewNames.java
