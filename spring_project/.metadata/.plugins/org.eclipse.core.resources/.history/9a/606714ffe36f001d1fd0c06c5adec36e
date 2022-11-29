@@ -1,0 +1,5 @@
+package com.org.service.demo;
+
+public class WelcomeService {
+
+}
