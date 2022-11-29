@@ -8,7 +8,7 @@ public class WelcomeService {
 		List<String> myWelcomeMsg = new ArrayList<>();
 		
 		//Adding data to the list
-		myWelcomeMsg.add("Hello, ");
+		myWelcomeMsg.add("Hello! ");
 		myWelcomeMsg.add(name);
 		myWelcomeMsg.add(", Welcome to the spring Course :-)");
 		
